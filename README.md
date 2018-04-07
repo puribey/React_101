@@ -83,35 +83,8 @@ var MyFirstComponent = (
 
 * As we can't asign a var x = 1,2,3 as it needs an object or an array to work, same happens with React there is ONE parent or class that has many components or sons. 
 
-
 #### References
 
 * To organize a React proyect check React Route Repo. 
 
-
-
-
- 
-
-
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-
-## WIKI
-
-View [wiki](https://github.com/chicasprogramando/coffeemap/wiki).
+Link to React Official [web](https://reactjs.org/).
