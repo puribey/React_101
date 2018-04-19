@@ -72,6 +72,27 @@ ShowCard.propTypes = {
 }
 ```
 
+## State 
+
+In order to have or manage state we need to make class components.
+There are two ways of making them: 
+
+```
+class Search extends React.Component {}
+
+```
+
+```
+const Search = React.createClass({
+	render() {
+		return (
+			<div>
+			</div>
+		)
+	}
+})
+
+```
 
 **Readings:**
 
