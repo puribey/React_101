@@ -94,8 +94,32 @@ const Search = React.createClass({
 
 ```
 
-**Readings:**
+## UNIT TESTING
+
+Using enzyme, mocha and chai
+
+Create a folder call test, inside another one called helpers and inside a file called setup.js 
+Here we will create a fake environment where to test as a browser like place. It is not a browser and it is similar to phantom. 
+
+1. Intsall babel dependencies:
+*npm install --save-dev babel-polyfill*
+*npm install --save-dev babel-register*
+
+2. Run either of these in your command line to run the tests
+*mocha --require test/helpers/setup.js*
+*mocha -R nyan --require test/helpers/setup.js*
+
+* Some vocab
+- Shallow: is going to test the render of the parent and not the children 
+- Mount: interactive, similar sintax to jQuery. Slower than shallow
+
+
+
+#### Readings
 
 * 2ality.com
 * Destructuring in javaScript
+* React Formly (Form validation library)
+
+
 
