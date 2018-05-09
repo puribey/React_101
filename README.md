@@ -113,6 +113,19 @@ Here we will create a fake environment where to test as a browser like place. It
 - Shallow: is going to test the render of the parent and not the children 
 - Mount: interactive, similar sintax to jQuery. Slower than shallow
 
+## Debug your state
+- You can debug your state by making a JSON out of your data or props 
+- We used this to debug our router with the different ids of the DB. This way we could show the objects belonging to each id in the DB on its own page. 
+
+```
+<pre><code>
+  {JSON.stringify(this.props, null, 4)}
+</code></pre>
+```
+
+
+## Data tunneling 
+- Instead of making AXAJ requests to every and each component we do that only once in the most common ansester. 
 
 
 #### Readings
